@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+.header{
+  width: 100%;
+  position: flex;
+  background-color: #388bff;
+}
+
+.navi-bar{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.common{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-icon{
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-icon a{
+  color: #f2ff7b;
+}
+
+.a{
+  text-decoration: none;
+}
+
+.navi li{
+  padding: 30px;
+}
+
+
