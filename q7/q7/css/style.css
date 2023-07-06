@@ -2,25 +2,30 @@
 
 .speech-bubbles{
   position: relative;
+  display: inline-block;
   width: 500px;
   background: #fad296;
-  padding: 20px;
   font-size: 16px;
   line-height: 16px;
   border:solid 5px #8f5a0a;
-  border-radius: 10px;
+  border-radius: 30px;
   margin-bottom: 40px;
+  padding: 20px;
 }
 
-.speech-bubbles:before{
-  display: block;
+.speech-bubbles::before,
+.speech-bubbles::after{
   position: absolute;
   content: "";
+  border: 15px solid transparent;
 }
 
-.speech-bubbles:after{
-  position: absolute;
-  content: "";
-  bottom: -35px;
+.speech-bubbles::before{
+  border-top:15px solid #8f5a0a;
+  bottom: -40px;
+}
 
+.speech-bubbles::after{
+  border-top: 15px solid #fad296;
+  bottom: -40px;
 }
