@@ -2,15 +2,14 @@
 
 .speech-bubbles{
   position: relative;
-  display: inline-block;
   width: 500px;
   background: #fad296;
   font-size: 16px;
   line-height: 16px;
   border:solid 5px #8f5a0a;
   border-radius: 30px;
-  margin-bottom: 40px;
   padding: 20px;
+  margin: auto;
 }
 
 .speech-bubbles::before,
@@ -18,14 +17,15 @@
   position: absolute;
   content: "";
   border: 15px solid transparent;
+  left: 30px;
 }
 
 .speech-bubbles::before{
-  border-top:15px solid #8f5a0a;
+  border-top: 20px solid #8f5a0a;
   bottom: -40px;
 }
 
 .speech-bubbles::after{
   border-top: 15px solid #fad296;
-  bottom: -40px;
+  bottom: -30px;
 }
