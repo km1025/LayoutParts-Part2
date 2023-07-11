@@ -16,16 +16,16 @@
 .speech-bubbles::after{
   position: absolute;
   content: "";
-  border: 15px solid transparent;
+  border:solid 20px transparent;
   left: 30px;
 }
 
 .speech-bubbles::before{
-  border-top: 20px solid #8f5a0a;
-  bottom: -40px;
+  border-top:solid 20px #8f5a0a;
+  bottom: -44px;
 }
 
 .speech-bubbles::after{
-  border-top: 15px solid #fad296;
-  bottom: -30px;
+  border-top:solid 20px #fad296;
+  bottom: -37px;
 }
