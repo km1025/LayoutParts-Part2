@@ -2,3 +2,17 @@
 
 /* カード内の画像は以下のURLを使用して下さい */
 /* https://picsum.photos/id/1005/200/300 */
+
+.green-box{
+  width: 200px;
+  height: 200px;
+  background-color: #76ff826b;
+  margin: 0 auto;
+}
+
+.fade-in{
+  animation-name:fadeIn;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
