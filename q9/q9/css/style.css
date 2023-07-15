@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-/*フェードイン*/
+/*9-1 フェードイン*/
 .fade-in{
   animation:fadein 4s ease-in forwards;
 }
@@ -20,7 +20,7 @@
   100%{opacity: 1;}
 }
 
-/*フェードアウト*/
+/*9-2 フェードアウト*/
 .fade-out{
   animation:fadeout 4s ease 4s normal;
 }
@@ -30,7 +30,7 @@
   100%{opacity: 0;}
 }
 
-/*回転*/
+/*9-3 回転*/
 .spin{
   animation:spin 4s linear infinite;
 }
@@ -48,7 +48,44 @@
   transition: 0.5s;
 }
 
+/*9-4 色変更*/
 .hover-color:hover{
   background-color: #ff27e2c9;
 }
 
+/*9-5 回転*/
+.hover-spin:hover{
+  transition: transform 0.5s;
+  transform: rotate(360deg);
+}
+
+/*9-6 上にスライド*/
+.slide-up:hover{
+  transform:translate(0,-20px)
+}
+
+/*9-7 下にスライド*/
+.slide-right:hover{
+  transform: translate(20px,0);
+}
+
+/*9-8 縦に引き伸ばし*/
+.longitudinally:hover{
+  height: 300px;
+}
+
+/*9-9 横に引き伸ばし*/
+.extend-transversely:hover{
+  width: 500px;
+}
+
+/*9-10 箱の中に枠線*/
+.frame-border:hover{
+  border: 10px #00ffe5 solid;
+  box-sizing:border-box;
+}
+
+/*9-11 箱に影*/
+.box-shadow:hover{
+  box-shadow:8px 11px 10px 3px #06031ed0;
+}
