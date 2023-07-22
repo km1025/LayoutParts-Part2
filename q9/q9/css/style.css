@@ -89,3 +89,64 @@
 .box-shadow:hover{
   box-shadow:8px 11px 10px 3px #06031ed0;
 }
+
+/*9-12 サークルの回転*/
+.spin-circle{
+  width: 50px;
+  height: 50px;
+  border: 10px solid #ecf1f2;
+  border-radius: 50%;
+  border-top: 10px solid #14ff4bcd;
+  animation: spin 1.1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin-circle{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+/*9-13 カードリスト*/
+.hover-card{
+  height: 500px;
+}
+
+.card-list{
+  display: flex;
+}
+
+.card{
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  list-style: none;
+  border-left: 0;
+}
+
+.card:first-child{
+  border: 1px solid #000000;
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+  background: url(https://picsum.photos/id/1005/200/300);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin:0 auto;
+}
+
+.p{
+  display: inline-block;
+  vertical-align: center;
+  margin-top: 20px;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 10px 3px #424242d0;
+  transition: 0.5s;
+  z-index: 1;
+}
