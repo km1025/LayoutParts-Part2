@@ -39,7 +39,7 @@
 .shadow-red{
   color: #fff;
   background-color: #fd0f0fd9;
-  box-shadow:0px 5px 0px rgba(63,5,5,0.851);
+  box-shadow:0px 5px 0px rgba(63,5,5,0.851),;
 }
 
 .shadow-blue{

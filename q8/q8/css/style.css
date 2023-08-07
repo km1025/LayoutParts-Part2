@@ -1,2 +1,27 @@
 @charset "UTF-8";
 
+.img{
+  height: 500px;
+}
+
+.back-img{
+  background-image: url(file:///Users/matsudakanoko/Documents/PRSkensyu/LayoutParts-Part2/q8/image/coffee-background.jpg);
+}
+
+.norepeat-img{
+  background-image: url(file:///Users/matsudakanoko/Documents/PRSkensyu/LayoutParts-Part2/q8/image/coffee-background.jpg);
+  background-repeat:no-repeat;
+}
+
+.size-img{
+  background-image: url(file:///Users/matsudakanoko/Documents/PRSkensyu/LayoutParts-Part2/q8/image/coffee-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.position-img{
+  background-image: url(file:///Users/matsudakanoko/Documents/PRSkensyu/LayoutParts-Part2/q8/image/coffee-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
