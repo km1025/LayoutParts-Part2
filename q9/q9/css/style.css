@@ -116,7 +116,13 @@
   vertical-align: center;
 }
 
+.ul,li{
+  list-style: none;
+}
+
 .card{
+  display: flex;
+  flex-wrap: wrap;
   width: 300px;
   padding: 20px;
   background-color: #ffffff;
@@ -143,8 +149,7 @@
 .p{
   display: inline-block;
   vertical-align: center;
-  gap: 0px 20px;
-  list-style: none;
+  margin-top: 20px;
 }
 
 .card:hover{
