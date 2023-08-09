@@ -143,13 +143,13 @@
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  margin:0 auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .p{
   display: inline-block;
   vertical-align: center;
-  margin-top: 20px;
 }
 
 .card:hover{
