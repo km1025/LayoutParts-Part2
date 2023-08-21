@@ -9,19 +9,13 @@
 }
 
 .norepeat-img{
-  background-image: url(../../image/coffee-background.jpg);
-  background-repeat:no-repeat;
+  background-image: url(../../image/coffee-background.jpg) no-repeat;
 }
 
 .size-img{
-  background-image: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../../image/coffee-background.jpg) no-repeat center/cover;
 }
 
 .position-img{
-  background-image: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:contain;
+  background-image: url(../../image/coffee-background.jpg) no-repeat center/contain;
 }

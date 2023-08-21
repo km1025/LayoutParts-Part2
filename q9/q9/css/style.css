@@ -56,7 +56,7 @@
 /*9-5 回転*/
 .hover-spin:hover{
   transition: transform 0.5s;
-  transform: rotate(360deg);
+  transform: rotate(365deg);
 }
 
 /*9-6 上にスライド*/
